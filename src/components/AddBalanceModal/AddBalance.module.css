@@ -1,0 +1,29 @@
+
+
+.header{
+    padding: 0px;
+    margin: 10px 0px;    
+}
+
+.addBalance{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+    background-color: rgb(243, 162, 11);
+    margin: 0px 10px;
+}
+
+.cancel{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+}
+
+.incomeAmount{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px gray;
+}

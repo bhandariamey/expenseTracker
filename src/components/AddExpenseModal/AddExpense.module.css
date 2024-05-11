@@ -1,0 +1,31 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 20px;
+}
+
+.gridItem{
+    padding: 7px;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    color: gray;
+}
+
+.header{
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.buttons{
+    display: flex;
+    margin-left: 10px;
+}
+
+.addExpense{
+    background-color: rgb(241, 173, 25);
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}

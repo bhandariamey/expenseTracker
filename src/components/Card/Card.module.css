@@ -1,0 +1,24 @@
+
+
+.cardWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    margin: 20px 0px;
+    border-radius: 10px;
+    background-color: #C0C0C0;
+    box-shadow: 4px 6px #36454F;
+}
+
+.text{
+    font-size: 23px;
+    color: white;
+}
+
+.amount{
+    font-size: 23px;
+    font-weight: 600;
+}
+

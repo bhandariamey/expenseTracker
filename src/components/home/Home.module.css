@@ -1,0 +1,125 @@
+body{
+    background-color: #2C2321;
+    margin: 0px 20px;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #848884;
+    border-radius: 10px;
+    padding: 30px 0px;
+}
+
+.heading{
+    color: white;
+    font-weight: 700;
+}
+
+.expenseWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+
+
+.ul{
+    border-radius: 10px;
+    background-color: white;
+    width: 50vw;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid white;
+}
+
+
+.icon{
+    margin: 0px 20px 0px 0px;
+    border-radius: 50%;
+    background-color: lightgray;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.date{
+    color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.amount{
+    color: orange;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.delete{
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #FF474C;
+    margin-right: 10px;
+}
+
+.edit{
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #FFD580;
+    margin-right: 10px;
+
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageNumber{
+    padding: 0px 10px;
+    border-radius: 5px;
+    background-color: rgb(75, 177, 75);
+    color: white;
+    margin: 0px 10px;
+    
+}
+
+.pagination button{
+    background-color: lightgray;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.lowerWrapper{
+    display: flex;
+}
